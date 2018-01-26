@@ -9,12 +9,12 @@ public class MainController {
 
 
     @RequestMapping("/BisratM")
-    public String showWName(@RequestParam("Number") int number)
+    public String showName(@RequestParam("Number") int number)
 
 
     {
         String c = "";
-        String a = "";
+
 
         while (number > 1){
             if(number % 2 == 0){
